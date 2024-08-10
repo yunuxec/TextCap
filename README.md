@@ -5,7 +5,6 @@ TextCap is a .NET 8 application that enables users to capture full screenshots o
 ## Data Files
 - To use Tesseract OCR, you need language data files in `.traineddata` format.
 - Obtain the Tesseract data files from the [Tesseract GitHub repository](https://github.com/tesseract-ocr/tessdata) or from the [official Tesseract website](https://tesseract-ocr.github.io/tessdata/).
-- **License:** The Tesseract data files are licensed under the Apache-2.0 License. See the [LICENSE](https://github.com/tesseract-ocr/tessdata/blob/master/LICENSE) file in the Tesseract GitHub repository for more details.
 
 ## Installation
 - Download the language data files you need and place them in the `tessdata` directory of your TextCap project.
@@ -17,3 +16,6 @@ TextCap is a .NET 8 application that enables users to capture full screenshots o
 ## Notes
 - Keep the Tesseract data files updated for better OCR accuracy.
 - Consult the Tesseract [documentation](https://tesseract-ocr.github.io/tessdoc/) for more details on configuration and language support.
+
+# Included Data Files
+The `.traineddata` files included in this project are obtained from Tesseract and are licensed under the Apache-2.0 License. For more details, see the [Tesseract GitHub repository](https://github.com/tesseract-ocr/tessdata) and the [LICENSE](https://github.com/tesseract-ocr/tessdata/blob/master/LICENSE) file.
