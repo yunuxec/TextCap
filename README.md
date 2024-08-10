@@ -1,1 +1,2 @@
 # TextCap
+TextCap is a .NET 8 application that enables users to capture full screenshots of their desktop, select a region of interest (ROI) from the screenshot, and extract text from that region using Tesseract OCR. The extracted text is then saved to a timestamped .txt file in an output folder. The application features options to open the output folder and view the saved files. Designed to be simple and user-friendly, TextCap makes it easy to capture and process screen content for various uses.
