@@ -19,7 +19,7 @@
             // 
             // ImageForm
             // 
-            ClientSize = new Size(800, 600);
+            ClientSize = new Size(1280, 720);
             Name = "ImageForm";
             Text = "ROI Selector";
             WindowState = FormWindowState.Maximized;
